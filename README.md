@@ -6,7 +6,8 @@ The dockerfile used here is "https://hub.docker.com/r/tianon/steam/~/dockerfile/
 For some reasno, I did't find a way to start or rebuild directly then I rebuild it from a copy of the Dockerfile
 
 
-/*French below*/
+/* French below */
+
 Installation d'une version de steam dockerisée
 
 Je suis sous Debian GNU/Linux 8
