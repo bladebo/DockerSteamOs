@@ -13,8 +13,8 @@ Je suis sous Debian GNU/Linux 8
 
 - creer un dossier/Dockerfile avec les informations du dockerfile
 Exemple sources : http://blog.drwahl.me/steam-running-in-docker-lxc/ et docker
---------------------
-FROM tianon/steamos
+```
+FROM tianon/steamsomarkdown
 
 RUN apt-get update && apt-get install -y steam-launcher zenity && rm -rf /var/lib/apt/lists/*
 
@@ -40,7 +40,7 @@ ENV HOME /home/steam
 VOLUME /home/steam
 
 CMD ["steam"]
-----------------
+```
 - en étant dans le dossier du DockerFile créé
 - docker build -t nomdubuild .
 - une fois le build "successful"
