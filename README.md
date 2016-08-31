@@ -47,8 +47,8 @@ CMD ["steam"]
 - une fois le build "successful"
 - utiliser la commande 
 
-'''bash
+```bash
 docker run -e DISPLAY=${DISPLAY} -v /tmp/.X11-unix:/tmp/.X11-unix -v ${HOME}/Downloads:/tmp/Downloads --privileged=true nomdubuild
-'''
+```
 
 Il est probablement possible de rajouter des options en fonctions de vos besoins.
