@@ -9,6 +9,7 @@ For some reason, I didn't find a way to start or rebuild directly then I rebuild
 /* French below */
 
 Installation d'une version de steam dockerisée
+Afin que soit disponible les fonctions d'ajout de jeux via un code, par exemple, qui ne sont pas disponible sur le site.
 
 Je suis sous Debian GNU/Linux 8
 
